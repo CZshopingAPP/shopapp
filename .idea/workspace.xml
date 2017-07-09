@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80986533-512a-4879-ab7f-7e8e2d51e330" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Checkregist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkname.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yj-login.php" afterPath="$PROJECT_DIR$/yj-login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yj-reg.php" afterPath="$PROJECT_DIR$/yj-reg.php" />
     </list>
     <ignored path="APP整站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +25,30 @@
     <favorites_list name="APP整站" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="yj-reg.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yj-reg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checkregist.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Checkregist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <marker date="1499590599656" expanded="true" signature="522:589" ph="insert into member... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,11 +63,14 @@
         <option value="$PROJECT_DIR$/css/suosou.css" />
         <option value="$PROJECT_DIR$/sousuo.html" />
         <option value="$PROJECT_DIR$/yj-index.html" />
-        <option value="$PROJECT_DIR$/yj-login.php" />
         <option value="$PROJECT_DIR$/checklogin.php" />
         <option value="$PROJECT_DIR$/public/db.php" />
         <option value="$PROJECT_DIR$/select.php" />
         <option value="$PROJECT_DIR$/Checklogin.php" />
+        <option value="$PROJECT_DIR$/yj-login.php" />
+        <option value="$PROJECT_DIR$/checkname.php" />
+        <option value="$PROJECT_DIR$/yj-reg.php" />
+        <option value="$PROJECT_DIR$/Checkregist.php" />
       </list>
     </option>
   </component>
@@ -201,17 +231,18 @@
       <workItem from="1499172136667" duration="13837000" />
       <workItem from="1499398694408" duration="28053000" />
       <workItem from="1499523052237" duration="10350000" />
-      <workItem from="1499588444940" duration="1237000" />
+      <workItem from="1499588444940" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53477000" />
+    <option name="totallyTimeSpent" value="54379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -421,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yj-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -455,6 +476,40 @@
         <state relative-caret-position="435">
           <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yj-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkname.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yj-reg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkregist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <marker date="1499590599656" expanded="true" signature="522:589" ph="insert into member... " />
+          </folding>
         </state>
       </provider>
     </entry>

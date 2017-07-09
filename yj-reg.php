@@ -20,10 +20,10 @@
 				<span></span>
 				<span></span>
 			</div>
-			<input type="text" class="user" placeholder="请输入手机号码或邮箱">
+			<input type="text" class="user" placeholder="请输入手机号码或邮箱" name="mname">
 			<input type="text" class="code" placeholder="请输入验证码">
-			<input type="password" class="pass" placeholder="请输入密码">
-			<input type="password" class="pass1" placeholder="请再次输入密码">
+			<input type="password" class="pass" placeholder="请输入密码" name="mpass">
+			<input type="password" class="pass1" placeholder="请再次输入密码" name="mpass1">
 			<div class="huoqu">获取</div>
 		</div>
 		<div class="message">
@@ -33,8 +33,8 @@
 		<div class="loginn">
 			<span></span>
 			<span>
-				<p>下一步</p>
-				<p>NEXTHERE</p>
+				<p>注册</p>
+				<p>REGIT</p>
 			</span>
 			<span></span>
 		</div>

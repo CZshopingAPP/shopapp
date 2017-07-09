@@ -15,7 +15,7 @@
 	<div class="box">
 		<div class="shop1"></div>
 		<div class="shop"></div>
-        <form action="checklogin.php">
+        <form action="Checklogin.php">
             <div class="login">
                 <div class="user">
                     <div class="xuan">
@@ -46,14 +46,19 @@
 			<div class="message1"></div>
 			<span>您填写的用户名有误</span>
 		</div>
-		<div class="loginn">
-			<span></span>
-			<span>
+        
+        <form action="Checklogin.php">
+            <div class="loginn">
+                <span></span>
+                <span>
 				<p>登录</p>
 				<p>DENGLUHERE</p>
 			</span>
-			<span></span>
-		</div>
+                <span></span>
+            </div>
+        </form>
+		
+        
 		<div class="san">
 			<span></span>
 			<span></span>
@@ -74,6 +79,8 @@
 		$(".input").show();
 		$(".password").hide();
 	})
-	
+	$(".loginn").click(function () {
+        
+    })
 </script>
 </html>
