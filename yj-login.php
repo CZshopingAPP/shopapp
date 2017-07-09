@@ -15,28 +15,30 @@
 	<div class="box">
 		<div class="shop1"></div>
 		<div class="shop"></div>
-		<div class="login">
-			<div class="user">
-				<div class="xuan">
-					<div class="xuan1"></div>
-					<div class="xuan2"></div>
-				</div>
-				<div class="usertitle"></div>
-				<input type="text" class="input" placeholder="您可以输入邮箱或手机号" name="mname">
-				<input type="password" class="password" placeholder="您可以输入密码" name="mpass">
-			</div>
-			<div class="zc">
-				<div class="zc1">
-					<span></span>
-					<span>找回密码</span>
-				</div>
-				<div class="zc2">
-					<span></span>
-					<span>我要注册</span>
+        <form action="checklogin.php">
+            <div class="login">
+                <div class="user">
+                    <div class="xuan">
+                        <div class="xuan1"></div>
+                        <div class="xuan2"></div>
+                    </div>
+                    <div class="usertitle"></div>
+                    <input type="text" class="input" placeholder="您可以输入邮箱或手机号" name="mname">
+                    <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
+                </div>
+                <div class="zc">
+                    <div class="zc1">
+                        <span></span>
+                        <span>找回密码</span>
+                    </div>
+                    <div class="zc2">
+                        <span></span>
+                        <span>我要注册</span>
 
-				</div>
-			</div>
-		</div>
+                    </div>
+                </div>
+            </div>
+        </form>
 		<div class="tiao"></div>
 		<div class="user1"></div>
 		<div class="pass"></div>
