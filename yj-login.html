@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/yj-login.css">
 	<script src="js/rem.js"></script>
+	<script src="js/jQuery.js"></script>
+	<script src="js/jquery.validate.js"></script>
+		<script src="js/messages_zh.js"></script>
 </head>
 <body>
 	<div class="box">
@@ -57,4 +60,18 @@
 
 	</div>
 </body>
+<script type="text/javascript">
+	$(".pass").click(function(){
+		$(".usertitle").css("background-image","url('img/yj-login-userpass.png')");
+		$(".input").hide();
+		$(".password").show();
+		$(this).css("background-image","url('img/yj-login-pass1.png')");
+	})
+	$(".user1").click(function(){
+		$(".usertitle").css("background-image","url('img/yj-login-username.png')");
+		$(".input").show();
+		$(".password").hide();
+	})
+	
+</script>
 </html>
