@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80986533-512a-4879-ab7f-7e8e2d51e330" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checklogin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yj-login.php" afterPath="$PROJECT_DIR$/yj-login.php" />
     </list>
     <ignored path="APP整站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +39,8 @@
         <option value="$PROJECT_DIR$/yj-login.php" />
         <option value="$PROJECT_DIR$/checklogin.php" />
         <option value="$PROJECT_DIR$/public/db.php" />
+        <option value="$PROJECT_DIR$/select.php" />
+        <option value="$PROJECT_DIR$/Checklogin.php" />
       </list>
     </option>
   </component>
@@ -203,12 +201,12 @@
       <workItem from="1499172136667" duration="13837000" />
       <workItem from="1499398694408" duration="28053000" />
       <workItem from="1499523052237" duration="10350000" />
-      <workItem from="1499588444940" duration="1046000" />
+      <workItem from="1499588444940" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53286000" />
+    <option name="totallyTimeSpent" value="53477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -441,10 +439,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <marker date="1499589533981" expanded="true" signature="69:93" ph="select mname... member" />
+            <marker date="1499589533981" expanded="true" signature="345:365" ph="select * fro... member" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Checklogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
