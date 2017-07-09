@@ -1,0 +1,288 @@
+html,body{
+    width:100%;
+    height:100%;
+    background: #FAFAFA;
+    font-family: "苹方 常规";
+}
+header{
+    width:100%;
+    height:5rem;
+    background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    padding-top: 1rem;
+    position: relative;
+}
+.hjy-head{
+    width:3rem;
+    height:1rem;
+    margin:0 auto;
+}
+.hjy-head img{
+    width:100%;
+    height:100%;
+}
+.hjy-sao,.hjy-ms{
+    width:0.5rem;
+    height:0.48rem;
+    position: absolute;
+    top:1.5rem;
+    float: left;
+}
+.hjy-sao{
+    left:0.25rem;
+    background: url("../img/2.png") no-repeat center;
+    background-size: cover;
+}
+.hjy-ms{
+    right:0.25rem;
+    background: url("../img/06.png") no-repeat center;
+    background-size: cover;
+}
+.hjy-i{
+    width:5.50rem;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;
+}
+.hjy-in{
+    width:5.50rem;
+    height:0.6rem;
+    border-radius: 0.4rem;
+}
+.hjy-i .t{
+    width:0.36rem;
+    height:0.35rem;
+    position: absolute;
+    top:0.8rem;
+    bottom:0;
+    right:0.75rem;
+}
+.hjy-i .t1{
+    width:0.3rem;
+    height:0.34rem;
+    position: absolute;
+    top:0.8rem;
+    bottom:0;
+    right:0.3rem;
+}
+.hjy-i .t2{
+    width:0.1rem;
+    height:0.55rem;
+    position: absolute;
+    top:0.73rem;
+    bottom:0;
+    right:0.58rem;
+}
+.ht{
+    width:3.08rem;
+    height:0.9rem;
+    position: absolute;
+    bottom:0.5rem;
+    left:0;
+    right:0;
+    margin:auto;
+    background: url("../img/3.png") no-repeat center;
+    background-size: cover;
+}
+.di{
+    width:100%;
+    height:0.8rem;
+    background: url("../img/di.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom:-0.8rem;
+    padding-top: 0.1rem;
+}
+.sou{
+    width:85%;
+    height:85%;
+    margin: 0 auto;
+}
+.sou ul{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sou ul li{
+    width:1rem;
+    height:0.5rem;
+    background: url("../img/4.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.sou ul li span{
+    width:90%;
+    height:90%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    border-radius: 0.3rem;
+    font-size: 0.25rem;
+    text-align: center;
+    line-height:0.4rem;
+    color: #fff;
+}
+#bk{
+    background: #fff;
+    color: #FF17AA;
+}
+.content{
+    width:100%;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+.content1{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.con{
+    width:100%;
+    height:5.6rem;
+    margin-top:1.2rem;
+    background: #fff;
+    border-radius: 0.2rem;
+}
+.con .ctitle{
+    width:100%;
+    height:20%;
+    background: #FF3877;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+.con .ctitle .tl{
+    width:20%;
+    height:100%;
+    position: relative;
+    float: left;
+}
+.con .ctitle .tl img{
+    width:1.38rem;
+    height:1.67rem;
+    position: absolute;
+    top:-0.21rem;
+    left:0.2rem;
+    right:0;
+    margin:auto;
+}
+.con .ctitle .tr{
+    width:80%;
+    height:100%;
+    position: relative;
+    float: left;
+}
+.con .ctitle .tr span{
+    color: #fff;
+}
+.con .ctitle .tr .zi{
+    font-size: 0.3rem;
+    font-weight:bold;
+    position: absolute;
+    top:0.2rem;
+    left:0.35rem;
+}
+.con .ctitle .tr .zi1{
+    font-size: 0.25rem;
+    font-weight:bold;
+    position: absolute;
+    top:0.65rem;
+    left:0.3rem;
+}
+.con .ctitle .tr .zi2{
+    font-size: 0.2rem;
+    font-weight:bold;
+    position: absolute;
+    bottom:0.2rem;
+    right:1.3rem;
+}
+.con .ctitle .tr .zi3{
+    font-size: 0.2rem;
+    font-weight:bold;
+    position: absolute;
+    bottom:0.2rem;
+    right:0.1rem;
+}
+.con .mess{
+    width:85%;
+    height:80%;
+    margin:0 auto;
+}
+.con .mess .ms1{
+    width:100%;
+    height:auto;
+    margin-top: 0.4rem;
+}
+.con .mess .ms1 span{
+    width:100%;
+    height:0.68rem;
+    font-size: 0.2rem;
+    color: #686868;
+    line-height: 0.3rem;
+    float: left;
+}
+.con .mess .ms2{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content:space-around;
+}
+.con .mess .ms2 img{
+    width:1.85rem;
+    height:2.24rem;
+    border-radius: 0.2rem;
+}
+.con .mess .ms3{
+    width:100%;
+    height:0.45rem;
+    position: relative;
+    padding-left: 0.2rem;
+    border-bottom: 0.02rem dashed #ccc;
+}
+.con .mess .ms3 span{
+    font-size: 0.2rem;
+    color: #686868;
+    line-height: 0.5rem;
+    float: left;
+}
+.con .mess .ms3 img{
+    width:0.28rem;
+    height:0.28rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.tu{
+    right:0.8rem;
+}
+.tu1{
+    right:0.2rem;
+}
+.con .mess .ms4{
+    width:100%;
+    height:0.7rem;
+    position: relative;
+}
+.con .mess .ms4 img{
+    width:0.39rem;
+    height:0.39rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0.3rem;
+    margin:auto;
+}
+.con .mess .ms4 span{
+    font-size: 0.3rem;
+    color: #686868;
+    line-height:0.7rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0.8rem;
+    margin:auto;
+}

@@ -1,0 +1,806 @@
+html,body{
+    width:100%;
+    height:100%;
+    background: #FAFAFA;
+}
+header{
+    width:100%;
+    height:6.4rem;
+    background: url("../img/beijing.png") no-repeat center;
+    background-size: cover;
+    padding-top: 1rem;
+    position: relative;
+}
+.hjy-head{
+    width:3rem;
+    height:1rem;
+    margin:0 auto;
+}
+.hjy-head img{
+    width:100%;
+    height:100%;
+}
+.hjy-sao,.hjy-ms{
+    width:0.5rem;
+    height:0.48rem;
+    position: absolute;
+    top:1.5rem;
+    float: left;
+}
+.hjy-sao{
+    left:0.25rem;
+    background: url("../img/09.png") no-repeat center;
+    background-size: cover;
+}
+.hjy-ms{
+    right:0.25rem;
+    background: url("../img/06.png") no-repeat center;
+    background-size: cover;
+}
+.hjy-i{
+    width:5.50rem;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;
+}
+.hjy-in{
+    width:5.50rem;
+    height:0.6rem;
+    border-radius: 0.4rem;
+}
+.hjy-i .t{
+    width:0.36rem;
+    height:0.35rem;
+    position: absolute;
+    top:0.8rem;
+    bottom:0;
+    right:0.75rem;
+}
+.hjy-i .t1{
+    width:0.3rem;
+    height:0.34rem;
+    position: absolute;
+    top:0.8rem;
+    bottom:0;
+    right:0.3rem;
+}
+.hjy-i .t2{
+    width:0.1rem;
+    height:0.55rem;
+    position: absolute;
+    top:0.73rem;
+    bottom:0;
+    right:0.58rem;
+}
+.hjy-dian{
+    display: block;
+    width:0.9rem;
+    height:0.12rem;
+    margin: 0.3rem auto;
+    margin-bottom:0;
+    padding-left: 0.08rem;
+}
+.hjy-dian li{
+    width:0.09rem;
+    height:0.09rem;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.05rem;
+}
+.hjy-banner{
+    width:5.94rem;
+    height:3.42rem;
+    /*overflow: hidden;*/
+    border-radius: 0.15rem;
+    position: absolute;
+    bottom:-0.5rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.hjy-banner .swiper-wrapper{
+    width:8.7rem;
+    height:100%;
+}
+.swiper-wrapper img{
+    width:5.94rem;
+    height:3.42rem;
+}
+.hjy-title{
+    width:5.27rem;
+    height:1.65rem;
+    border-radius: 0.2rem;
+    background: #fff;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:-2.6rem;
+    margin:auto;
+    z-index:3;
+}
+.hjy-title1{
+    width:5.27rem;
+    height:1.65rem;
+    border-radius: 0.2rem;
+    background: url("../img/beijing.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left:1.02rem;
+    bottom:-2.7rem;
+    margin:auto;
+    z-index:2;
+}
+.hjy-title .top{
+    width:100%;
+    height:55%;
+}
+.hjy-title .top .tleft{
+    width:55%;
+    height:100%;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.hjy-title .top .tleft span{
+    width:100%;
+    height:0.28rem;
+    font-size:0.25rem;
+    text-align: center;
+    line-height:0.28rem;
+    color: #FF3975;
+    float: left;
+    margin-top: 0.1rem;
+}
+.hjy-title .top .tleft i{
+    width:100%;
+    height:0.25rem;
+    font-size:0.25rem;
+    text-align: center;
+    line-height:0.28rem;
+    color: #A0A0A0;
+    float: left;
+    margin-top: 0.1rem;
+}
+.hjy-title .top .tright{
+    width:45%;
+    height:100%;
+    float: left;
+}
+.hjy-title .top .tright img{
+    width:0.24rem;
+    height:0.24rem;
+    float: right;
+    margin-right: 0.1rem;
+    margin-top: 0.3rem;
+}
+.hjy-title .top .tright i{
+    width:0.58rem;
+    height:0.15rem;
+    font-size:0.25rem;
+    text-align: center;
+    line-height:0.25rem;
+    color: #A0A0A0;
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+}
+.hjy-title .bottom{
+    width:100%;
+    height:45%;
+}
+.bottom .bleft{
+    position: relative;
+    width:45%;
+    height:100%;
+    float: left;
+}
+.bottom .bleft img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+    position: absolute;
+    top:0.1rem;
+    left:0.3rem;
+}
+.bottom .bleft span{
+    width:1.2rem;
+    height:0.18rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height:0.18rem;
+    color: #A0A0A0;
+    float: right;
+    margin-top: 0.2rem;
+}
+.bottom .bleft em{
+    width:1.5rem;
+    height:0.18rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height:0.18rem;
+    color: #A0A0A0;
+    float: right;
+    margin-top: 0.1rem;
+    margin-left: 0.2rem;
+}
+.bottom .bright{
+    position: relative;
+    width:30%;
+    height:100%;
+    float: left;
+}
+.bottom .b1{
+    position: relative;
+    width:25%;
+    height:100%;
+    float: left;
+}
+.bottom .bright img{
+    width:0.24rem;
+    height:0.25rem;
+    position: absolute;
+    bottom:0.1rem;
+    left:0.4rem;
+}
+.bottom .b1 img{
+    width:0.24rem;
+    height:0.25rem;
+    position: absolute;
+    bottom:0.1rem;
+    /*right:0.3rem;*/
+}
+.bottom .bright span{
+    font-size: 0.18rem;
+    text-align: center;
+    line-height:0.18rem;
+    color: #A0A0A0;
+    position: absolute;
+    bottom:0.15rem;
+    right:0.4rem;
+}
+.bottom .b1 span{
+    font-size: 0.18rem;
+    text-align: center;
+    line-height:0.18rem;
+    color: #A0A0A0;
+    position: absolute;
+    bottom:0.15rem;
+    right:0.4rem;
+}
+.content{
+    width:100%;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+.content1{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.kong{
+    width:100%;
+    height:3rem;
+}
+.hjy-con{
+    width:6.26rem;
+    height:1.22rem;
+    margin:0 auto;
+    /*background: #000;*/
+}
+.con{
+    width:6.26rem;
+    height:0.8rem;
+    margin:0 auto;
+}
+.hjy-con ul,.con ul{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:space-around;
+}
+.con ul li{
+    width:1.05rem;
+    padding-left: 0.2rem;
+    height:100%;
+    position: relative;
+}
+.con ul li span{
+    font-size: 0.3rem;
+    color: #666666;
+    text-align: center;
+    line-height:0.5rem;
+    position: absolute;
+    z-index:2;
+}
+.con ul li i{
+    font-size: 0.25rem;
+    color: #D9D9D9;
+    text-align: center;
+    line-height:0.3rem;
+    position: absolute;
+    top:0.3rem;
+    left:-0.01rem;
+}
+.hjy-con ul li{
+    width:1.15rem;
+    height:1.18rem;
+    background: url("../img/bj.png") no-repeat center;
+    background-size: cover;
+    border-radius: 0.35rem;
+    box-shadow: 0.05rem 0.1rem 0.5rem 0 rgba(0,0,0,0.5);
+    position: relative;
+}
+.hjy-con ul li img{
+    width:0.53rem;
+    height:0.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.hjy-title2{
+    width:100%;
+    height:1.2rem;
+}
+.title2{
+    width:2.9rem;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+}
+.hjy-title2 .ti1{
+    font-size: 0.5rem;
+    font-weight:bold;
+    color:#FD235C;
+    text-shadow: 0.05rem 0 0 0.05rem #F90E32;
+    position: absolute;
+    top:0;
+}
+.hjy-title2 .di{
+    width:0.12rem;
+    height:0.12rem;
+    border-radius: 50%;
+    background: #FF3170;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0.15rem;
+    margin:auto;
+}
+.hjy-title2 img{
+    position: absolute;
+    width:1.7rem;
+    left:0;
+    right:0;
+    top:0.65rem;
+    margin:auto;
+}
+.hjy-title2 .ti2,.ti3{
+    font-size: 0.3rem;
+    color: #FA0F44;
+    position: absolute;
+    bottom:0.04rem;
+}
+.hjy-title2 .ti2{
+    left:0.4rem;
+}
+.hjy-title2 .ti3{
+    right:0.4rem;
+}
+.sp{
+    width:3.25rem;
+    height:5.05rem;
+    border:0.03rem solid #fff;
+    margin-top: 0.25rem;
+    border-radius: 0.2rem;
+    position: relative;
+    float: left;
+    margin-left: 0.1rem;
+}
+.sp .s1{
+    width:100%;
+    height:0.1rem;
+    background: #FD1A49;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+.sp .s2 .st{
+    font-size: 0.4rem;
+    font-weight:bold;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #FD1A49;
+    position: absolute;
+    top:0.08rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.sp .s2 .st1,.st3,.st2{
+    font-size: 0.3rem;
+    text-align: center;
+    font-weight:bold;
+    color: #7B7B7B;
+    position: absolute;
+    bottom:0.3rem;
+}
+.st1{
+    left:0.9rem;
+}
+.st2{
+    right:0;
+    left:0;
+    margin:auto;
+}
+.st3{
+    right:0.9rem;
+}
+.sp .s2{
+    width:100%;
+    height:25%;
+    background: #F8F8F8;
+    position: relative;
+}
+.sp .s3{
+    width:100%;
+    height:75%;
+    background: #fff;
+    position: relative;
+    border-radius: 0.3rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.s3 .shp{
+    width:2.4rem;
+    height:2.18rem;
+    box-shadow: 0 0 0.2rem 0.05rem rgba(0,0,0,0.2);
+    border-radius:0.2rem;
+    position: absolute;
+    top:-0.2rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.s3 .shp img{
+    width:100%;
+    height:100%;
+}
+.s3 .shp1{
+    width:2.9rem;
+    height:0.85rem;
+    border-bottom: 0.02rem dashed #DEDEDE;
+    position: absolute;
+    top:2rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.shp1 .shp-1{
+    width:100%;
+    height:50%;
+    font-size: 0.4rem;
+    color: #575555;
+}
+.shp1 .shp-1 span{
+    font-size: 0.28rem;
+}
+.shp1 .shp-2{
+    width:100%;
+    height:50%;
+}
+.shp1 .shp-2 .dj,.gz{
+    width:50%;
+    height:100%;
+    float: left;
+    position: relative;
+}
+.shp1 .shp-2 .dj img{
+    width:0.18rem;
+    height:0.18rem;
+    margin-left: 0.1rem;
+    float: left;
+    margin-top: 0.18rem;
+}
+.shp1 .shp-2 .gz span{
+    width:0.52rem;
+    height:0.3rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top:0.1rem;
+    right:0.2rem;
+    background: url("../img/beijing.png") no-repeat center;
+    background-size: cover;
+}
+.shp1 .shp-2 .gz span img{
+    width:0.2rem;
+    height:0.15rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0.18rem;
+    margin:auto;
+}
+.shp2{
+    width:2.9rem;
+    height:0.78rem;
+    position: absolute;
+    top:2.88rem;
+    left:0;
+    right:0;
+    margin:auto;
+    border-radius: 0.2rem;
+    /*background: #000;*/
+}
+.shp2 .shp2-1{
+    width:35%;
+    height:100%;
+    float: left;
+    border-radius: 0.3rem;
+}
+.shp2 .shp2-1 .tx{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+    /*background: #000;*/
+    position: relative;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.shp2 .shp2-1 .tx img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.shp2 .shp2-2{
+    width:65%;
+    height:100%;
+    position: relative;
+    float: left;
+    border-radius: 0.3rem;
+}
+.shp2 .shp2-2 .sp-2{
+    font-size: 0.2rem;
+    color: #464D51;
+    position: absolute;
+    top:0.08rem;
+}
+.shp2 .shp2-2 .sp-3,.sp-4{
+    font-size: 0.2rem;
+    color: #B7B7B7;
+    position: absolute;
+    bottom:0.05rem;
+}
+.sp-3{
+    left:0.1rem;
+}
+.sp-4{
+    right:0.4rem;
+}
+.gd{
+    width:100%;
+    height:2.1rem;
+    background: url("../img/geduan.png") no-repeat center;
+    background-size: cover;
+    margin-top: -0.5rem;
+}
+.gd img{
+    width:100%;
+    height:1.26rem;
+    margin-top: 0.8rem;
+}
+.love{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.love .ltitle{
+    width:100%;
+    height:1.6rem;
+    position: relative;
+}
+.love .ltitle img{
+    width:3.66rem;
+    height:0.87rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.love .lo{
+    width:7.02rem;
+    height:2.05rem;
+    margin:0 auto;
+    /*background: #000;*/
+    border-radius: 0.2rem;
+    border:0.03rem solid #fff;
+    margin-top: 0.2rem;
+}
+.love .lo .lo-l{
+    width:30%;
+    height:100%;
+    float: left;
+    border-radius: 0.2rem;
+}
+.love .lo .lo-l img{
+    width:100%;
+    height:100%;
+}
+.love .lo .lo-r{
+    width:70%;
+    height:100%;
+    float: left;
+    border-radius: 0.2rem;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.love1,.love2,.love3{
+    width:70%;
+    height:33.33%;
+    border-bottom: 0.02rem dashed #ccc;
+    position: relative;
+    padding-left: 0.1rem;
+}
+.love2{
+    width:75%;
+}
+.love2 .lt{
+    font-size: 0.15rem;
+    color: #3F3F3F;
+    line-height:0.4rem;
+    position: absolute;
+}
+.love2 .sc,.man,.zt{
+    width:33.33%;
+    height:50%;
+    position: absolute;
+    bottom:0;
+}
+.sc{
+    left:0;
+}
+.sc img{
+    width:0.22rem;
+    height:0.22rem;
+    position: absolute;
+    left:0.2rem;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.sc span{
+    font-size: 0.05rem;
+    color: #969696;
+    line-height:0.4rem;
+    position: absolute;
+    right:0;
+}
+.man{
+    left:0;
+    right:0;
+    margin:auto;
+}
+.man img{
+    width:0.2rem;
+    height:0.2rem;
+    position: absolute;
+    left:0.2rem;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.man span{
+    font-size: 0.05rem;
+    color: #969696;
+    line-height:0.4rem;
+    position: absolute;
+    left:0.45rem;
+}
+.zt{
+    right:0;
+    font-size: 0.08rem;
+    color: #969696;
+    line-height:0.4rem;
+    text-align: center;
+}
+.love3{
+    width:100%;
+    border:0;
+}
+.love3 img{
+    width:0.2rem;
+    height:0.2rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.3rem;
+}
+.love3 span{
+    font-size: 0.25rem;
+    color: #F42E52;
+    float: left;
+    margin-left: 0.18rem;
+    margin-top: 0.25rem;
+}
+.love3 em{
+    font-size: 0.25rem;
+    color: #F42E52;
+    position: absolute;
+    right: 0.5rem;
+    margin-top: 0.25rem;
+}
+.love1 span{
+    font-size: 0.25rem;
+    color: #3F3F3F;
+    line-height:0.6rem;
+    position: absolute;
+}
+.k{
+    width:100%;
+    height:1.5rem;
+}
+.hot{
+    width:0.76rem;
+    height:0.82rem;
+    position: absolute;
+    top:-0.1rem;
+    right:0.3rem;
+}
+
+
+footer{
+    width:100%;
+    height:1.1rem;
+    background: #FFFFFF;
+    margin-top: 0.5rem;
+    position: fixed;
+    bottom:0;
+    z-index:2;
+}
+.foot{
+    width:80%;
+    height:100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.foot .btn{
+    width:0.94rem;
+    height:100%;
+    /*border-radius: 0.2rem;*/
+    position: relative;
+}
+.foot .btn img{
+    width:50%;
+    height:48%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.choose{
+    width:0.5rem;
+    height:0.05rem;
+    border-radius: 0.2rem;
+    background: #FF9308;
+    position: absolute;
+    bottom:0.1rem;
+    left:0;
+    right:0;
+    margin:auto;
+    display: none;
+}
+.tts{
+    display: block;
+}
+
+

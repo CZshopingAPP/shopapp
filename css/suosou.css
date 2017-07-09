@@ -1,0 +1,309 @@
+html,body{
+    width:100%;
+    height:100%;
+    background: #FAFAFA;
+    font-family: "苹方 常规";
+}
+header{
+    width:100%;
+    height:2.08rem;
+    background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    padding-top: 1rem;
+    position: relative;
+}
+.back{
+    width:0.44rem;
+    height:0.44rem;
+    background: url("../img/2.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0.83rem;
+    left:0.22rem;
+}
+.stitle{
+    width:3.99rem;
+    height:0.76rem;
+    background: url("../img/sousuo.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0.7rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.map{
+    width:0.8rem;
+    height:0.44rem;
+    background: url("../img/map.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0.83rem;
+    right:0.22rem;
+}
+input{
+    border:none;
+}
+.sin{
+    width:6.07rem;
+    height:0.57rem;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    position: absolute;
+    bottom:-0.25rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.xian{
+    width:0.01rem;
+    height:0.55rem;
+    border-left: 0.02rem dashed #FFA5D1;
+    position: absolute;
+    bottom:-0.25rem;
+    left:1.58rem;
+}
+.szi{
+    width:0.74rem;
+    height:0.55rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height:0.55rem;
+    color: #F4386C;
+    position: absolute;
+    bottom:-0.25rem;
+    left:0.86rem;
+}
+.content{
+    width:100%;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+.content1{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.zan{
+    width:100%;
+    height:0.8rem;
+}
+.st{
+    width:100%;
+    height:1rem;
+    position: relative;
+}
+.st .szi1{
+    font-size: 0.3rem;
+    color: #FD3B3D;
+    line-height:0.5rem;
+    position: absolute;
+    top:0;
+    left:0.05rem;
+}
+.st .szi2{
+    font-size: 0.25rem;
+    color: #FD3B3D;
+    line-height:0.5rem;
+    position: absolute;
+    bottom:0;
+    left:0.05rem;
+}
+.con{
+    width:100%;
+    height:1.5rem;
+    margin-top: 0.1rem;
+    border-bottom: 0.02rem solid #FDCCF3;
+}
+.con ul{
+    width:100%;
+    height:80%;
+    display: flex;
+    justify-content:space-around;
+}
+.con ul li{
+    width:2.1rem;
+    height:100%;
+    background: url("../img/beijing.png") no-repeat center;
+    background-size: cover;
+    border-radius: 0.2rem;
+    position: relative;
+}
+.con ul li img{
+    width:0.4rem;
+    height:0.38rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0.16rem;
+    margin:auto;
+}
+.con ul li span,strong{
+    font-size: 0.2rem;
+    line-height:0.4rem;
+    color: #fff;
+    position: absolute;
+    top:0.2rem;
+    left:0.7rem;
+    margin:auto;
+}
+.con ul li strong{
+    top:0.5rem;
+}
+.con1{
+    width:100%;
+    height:1.86rem;
+    margin-top: 0.2rem;
+    border-bottom: 0.02rem solid #FDCCF3;
+}
+.con1-zi{
+    width:1rem;
+    height:0.53rem;
+    border-radius: 0.3rem;
+    background: url("../img/sousuo2.png") no-repeat center;
+    background-size: cover;
+    font-size: 0.2rem;
+    line-height:0.53rem;
+    text-align: center;
+    color: #FE3AAA;
+}
+.con1-left,.con1-right{
+    width:80%;
+    height:50%;
+    display: flex;
+    justify-content:space-around;
+    float: left;
+}
+.con1-right{
+    float: right;
+}
+.con2{
+    width:100%;
+    height:5.05rem;
+    margin-top: 0.2rem;
+    position: relative;
+}
+.con2-left,.con2-right{
+    width:42%;
+    height:4.22rem;
+    border:0.01rem solid rgba(0,0,0,0.3);
+    background: #fff;
+    border-radius: 0.35rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    z-index:2;
+}
+.con2-left{
+    left:0;
+}
+.con2-right{
+    right:0;
+}
+.cfu,.cfu1{
+    width:32%;
+    height:4.5rem;
+    border-radius: 0.35rem;
+    background: #FA2548;
+    position: absolute;
+    top:0.25rem;
+}
+.cfu{
+    left:0.3rem;
+}
+.cfu1{
+    right:0.3rem;
+}
+.t,.t1{
+    width:28%;
+    height:0.56rem;
+    position: absolute;
+    top:0.05rem;
+    z-index:2;
+}
+.t{
+    left:0.45rem;
+}
+.t1{
+    right:0.45rem;
+}
+.ct,.ct1{
+    width:100%;
+    height:55%;
+    border-top-right-radius: 0.35rem;
+    border-top-left-radius: 0.35rem;
+    background: #F3F3F5;
+    position: relative;
+}
+.ct .tu{
+    width:100%;
+    height:100%;
+    border-top-right-radius: 0.35rem;
+    border-top-left-radius: 0.35rem;
+}
+.ct span{
+    width:100%;
+    height:20%;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    bottom:0;
+    z-index:5;
+    padding-left: 0.2rem;
+    padding-top: 0.06rem;
+}
+.ct span img{
+    width:0.25rem;
+    height:0.28rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.ct span em{
+    float: left;
+    margin-left: 0.13rem;
+    font-size: 0.2rem;
+    line-height:0.4rem;
+    color: #fff;
+}
+.cb{
+    width:100%;
+    height:45%;
+    border-bottom-right-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+}
+.cb .cb1{
+    width:85%;
+    height:35%;
+    margin:0 auto;
+    border-bottom: 0.01rem dashed #ccc;
+    font-size: 0.25rem;
+    line-height:0.65rem;
+    text-align: center;
+}
+.cb .cb2{
+    width:85%;
+    height:65%;
+    margin:0 auto;
+    padding-left: 0.1rem;
+    position: relative;
+}
+.cb .cb2 .cb2zi{
+    font-size: 0.25rem;
+    position: absolute;
+    top:0.2rem;
+    text-align: center;
+}
+.cb .cb2 .cb2zi1{
+    font-size: 0.25rem;
+    position: absolute;
+    top:0.7rem;
+    /*text-align: center;*/
+    color: #F3193D;
+}
+.cb .cb2 img{
+    width:0.3rem;
+    height:0.32rem;
+    position: absolute;
+    top:0.7rem;
+    right:0.2rem;
+}
