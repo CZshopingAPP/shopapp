@@ -1,6 +1,8 @@
-* {
+﻿* {
   margin: 0;
   padding: 0;
+	border:0;
+outline:none;
   box-sizing: border-box;
   list-style: none;
   transition: all 0.3s linear;
