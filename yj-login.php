@@ -22,8 +22,8 @@
 					<div class="xuan2"></div>
 				</div>
 				<div class="usertitle"></div>
-				<input type="text" class="input" placeholder="您可以输入邮箱或手机号">
-				<input type="password" class="password" placeholder="您可以输入密码">
+				<input type="text" class="input" placeholder="您可以输入邮箱或手机号" name="mname">
+				<input type="password" class="password" placeholder="您可以输入密码" name="mpass">
 			</div>
 			<div class="zc">
 				<div class="zc1">
